@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  background: linear-gradient(89deg, #c31432 0%, #240b36 100%) ;
+  overflow-x: hidden;
+ height:100vh;
+}
+
+
+
+/* IMAGELINKFORM */
+.imageLinkForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 15px;
+  margin-top: 150px;
+}
+.image-input{
+display: flex;
+flex-direction: column;
+}
+.image-input>input{
+  height: 30px;
+  width: 380px;
+  text-align: center;
+}
+.btn-style{
+  cursor: pointer;
+  height: 35px;
+  width: 150px;
+  outline: none;
+  border: none;
+  margin: 14px;
+  text-align: center;
+  background: #240b36 ;
+  color:white
+}
+.text{
+  font-family: 'Oleo Script Swash Caps', cursive;
+  margin-top: -120px;
+}
+@media screen and (max-width:600px){
+  .imageLinkForm{
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .image-input>input{
+    width: 100%;
+  }
+}
+
+
+/* END OF IMAGE LINK FORM */
+
+
+
+ 

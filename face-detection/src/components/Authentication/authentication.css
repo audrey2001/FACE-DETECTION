@@ -1,0 +1,91 @@
+
+
+/* REGISTER STYLES */
+.register-contanier{
+  margin-top: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  /* Add styles to the form container */
+  .register-form-container {
+    border: 1px solid white;
+    /* height: 100vh; */
+    padding: 16px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  ::placeholder{
+    color: black;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+.register-input{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.register-input>input{
+  background-color: transparent;
+}
+  
+  /* Full-width input fields */
+    input[type=text], input[type=email], input[type=password] {
+      border-radius: 5px;
+      border: 1px solid black;
+      width: 350px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+   color: black;
+   
+
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: transparent;
+    outline: none;
+    
+  }
+  /* Set a style for the submit button */
+  .register_button {
+    /* background-color:#c31432  ; */
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 20px;
+    background-color: #240b36;
+    line-height: 1;
+    font-size: 13px;
+    
+  }
+  
+  .register_button:hover {
+    transition: 0.5s ease-in;
+    background-color: black;
+  }
+
+  
+
+  @media screen and (max-width:600px){
+    input[type=text], input[type=email], input[type=password] {
+      width: 250px;
+    }
+    .register_contanier{
+      margin-top: 30%;
+      /* height: 100vh; */
+      
+    }
+
+    }
+  

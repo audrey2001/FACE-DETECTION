@@ -1,0 +1,33 @@
+.docs-contanier{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+}
+
+.docs-input-contanier{
+    margin-top: -200px;
+    display: flex;
+   flex-direction: column;
+  padding: 35px;
+  /* text-align: center; */
+}
+@media screen and (max-width:320px){
+    .docs-input-contanier{
+        margin-top: 20px;
+}}
+
+
+.docs-input-contanier>ul{
+    margin-top: 12px;
+    font-size: 15px;
+}
+ul>li{
+margin: 15px;
+list-style-type: disc;
+
+}

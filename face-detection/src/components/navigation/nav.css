@@ -1,0 +1,130 @@
+/* NAVIGATION */
+.logo-contanier{
+    /* font-size: 40px; */
+    color: white;
+    margin: 13px;
+    height: 60px;
+    width: 70px;
+    background: #240b36 ;
+  
+  }
+  .logo{
+    text-align: center;
+    margin: 7px;
+    color:white
+  }
+  .my-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list-style{
+    display: flex;
+    flex-direction: row;
+  
+  
+  }
+  .list-style>li{
+    
+    font-size: 20px;
+    opacity: 1;
+    list-style: none;
+    margin-right: 80px;
+    cursor: pointer;
+  }
+  .list-style>li:hover{
+    opacity: 0.3;
+  }
+  
+  .nav_link{
+    color: white;
+    text-decoration: underline;
+  }
+  /* to change what the hamburger menu looks like */
+  
+    
+    .menu-toggler div{
+      width: 1.8rem;
+      height: 0.2rem;
+      margin: 0.4rem;
+      background-color: white;
+      
+  }
+  .menu-toggler {
+      cursor: pointer;
+      display: none;
+      color: black;
+      margin-right: 10px;
+  }  
+  
+  
+  
+  
+  @media screen and (max-width:600px){
+  .menu-toggler {
+    display: block;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .list-style{
+    position: fixed;
+    top: 0;
+    right: 0!important;
+    width: 50%;
+    height: 100vh;
+    
+    flex-direction: column;
+    background-color: #240b36;
+    margin: 0;
+    text-align: center;
+    opacity: 0.9;
+    transform: translateX(100%);
+    transition: ease-in 0.5s;
+  }
+  
+  
+  
+  .list-style>li{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  
+  .nav_active{
+    /* translate 0 makes it show */
+  transform: translateY(0);
+    }
+  
+    /* toggler icon animation */
+  .toogle .line1{
+    transform: rotate(45deg) translate(8px,5px);
+    transform-origin: 10% 10%;
+    }
+    
+    .toogle .line2{
+      opacity: 0;
+    }
+    
+    .toogle .line3{
+      transform: rotate(-45deg) translate(-3px,5px);
+      transform-origin: 10% 90%;
+    } 
+    
+    
+    /* END OF ANIMATION */
+    
+  
+  }
+  @media screen and (max-width: 320px){
+    .nav_link{
+      font-size: 18px;
+      display: flex;
+    }
+  }
+  /* END OF NAVIGATION */
+  
+  /* ................................................. */
+  
