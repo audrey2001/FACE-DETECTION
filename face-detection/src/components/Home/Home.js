@@ -71,7 +71,9 @@ const Home = ({user}) => {
           onSubmit ={onSubmit}
           imageUrl ={imageUrl}
         />
-        <FaceRecognition imageUrl={imageUrl} />
+        <FaceRecognition
+          box ={box}
+          imageUrl={imageUrl} />
       </Fragment>
     </div>
   );
